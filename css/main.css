@@ -12,6 +12,11 @@
 .pd-3{
 	padding: 2% 10%;
 }
+/*Cambia el color del navegador*/
+nav.navbar {
+    background-color: #28B463;
+    margin-bottom: 0%;
+}
 .gray-m{
 	background-color: #34495E;
 }

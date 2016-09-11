@@ -18,37 +18,39 @@
 
     <body>
         <div class="container-fluid"> 
-            <header>
+            <header><!--Inicio dek encabezado-->
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <nav class="navbar navbar-default" role="navigation">
-                            <div class="navbar-header">
-                                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                                    <span class="sr-only">Desplegar navegación</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <a href="index.html" title="Index"><img src="img/logo.png" alt="Logo" class="img-responsive"></a>
-                            </div>
-                            <div class="collapse navbar-collapse">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Service</a></li>
-                                    <li><a href="#">Team</a></li>
-                                    <li><a href="#">Price</a></li>
-                                    <li><a href="#">Clients</a></li>
-                                    <li><a href="#">Facts</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </div>
-                        </nav>
+                        <nav class="navbar navbar-default"><!--Inicio del navegador-->
+                            <div class="container">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                                      <span class="sr-only">Toggle navigation</span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>                    
+                                    </button>
+                                    <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a><!--Imagen del logo-->
+                                </div>
+                                <div id="navbar" class="collapse navbar-collapse">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="#about" class="text-white">About</a></li>
+                                        <li><a href="#services">Service</a></li>
+                                        <li><a href="#team">Team</a></li>
+                                        <li><a href="#price">Price</a></li>
+                                        <li><a href="#clients">Clients</a></li>
+                                        <li><a href="#facts">Facts</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+                                    </ul>
+                                </div>
+                             </div>
+                        </nav><!--fin del nav-bar-->
                     </div>
                 </div>
-            </header>
+            </header><!--Fin del encabezado-->
             <section><!--Seccion que contiene el slider-->
                 <div class="row"><!--Row que contine el slider-->
-                    <div class="col--lg-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -58,7 +60,7 @@
                                 <div class="item active">
                                     <img src="img/carousel-bg.jpg" alt="Carousel" class="img-responsive">
                                     <div class="carousel-caption">
-                                        <h2>BEAUTIFUL COLOR APLETTES FOR <br>YOUR NEXT WEB PROJECT
+                                        <p class="fa-4x">BEAUTIFUL COLOR APLETTES FOR YOUR NEXT WEB PROJECT</p>
                                         <p>Choosing the right color scheme is essential to your websites's success. Your layout and <br> other design choise -including font - should be developed in concert with your color <br> scheme to ensure readability, cohesiveness and beauty in the final product.</p>
                                     </div>
                                 </div>
@@ -73,7 +75,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section><!--Fin del carrusel-->
             <section><!--Seccion2 paleta de colores-->
                 <div class="container">
                     <div class="row">
@@ -83,7 +85,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class=""></div>
+                        <div class="col-lg-12">
+                        </div>
                     </div>
                 </div>
             </section>  
@@ -91,7 +94,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <center><h2>ABOUT US</h2></center>
+                            <a name="about"><h2 class="text-center">ABOUT US</h2></a>
                             <hr>
                         </div>
                     </div>
@@ -170,11 +173,11 @@
                             <p>CEO/Founder</p>
                             <hr>
                             <p class="text-gray">Donec sed odio dui. Etiam porta <br>sem malesuada magna mollis <br>euismod. Nullam id dolor id nibh <br>ultricies vehicula ut id elit. Morbi <br>leo risus, porta ac consectetur <br>ac, vestibulum at eros.</p>
-                            <a href="#"><img src="img/iconredes/facebook.png"></a>
-                            <a href="#"><img src="img/iconredes/twitter.png"></a>
-                            <a href="#"><img src="img/iconredes/linkedin.png"></a>
-                            <a href="#"><img src="img/iconredes/pinterest.png"></a>
-                            <a href="#"><img src="img/iconredes/instagram.png"></a>
+                            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-pinterest-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
                             <img src="img/team/1.jpg" alt="Team" class="img-responsive center-block">
@@ -182,11 +185,11 @@
                             <p>CEO/Founder</p>
                             <hr>
                             <p class="text-gray">Donec sed odio dui. Etiam porta <br>sem malesuada magna mollis <br>euismod. Nullam id dolor id nibh <br>ultricies vehicula ut id elit. Morbi <br>leo risus, porta ac consectetur <br>ac, vestibulum at eros.</p>
-                            <a href="#"><img src="img/iconredes/facebook.png"></a>
-                            <a href="#"><img src="img/iconredes/twitter.png"></a>
-                            <a href="#"><img src="img/iconredes/linkedin.png"></a>
-                            <a href="#"><img src="img/iconredes/pinterest.png"></a>
-                            <a href="#"><img src="img/iconredes/instagram.png"></a>
+                            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-pinterest-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
                             <img src="img/team/1.jpg" alt="Team" class="img-responsive center-block">
@@ -194,11 +197,11 @@
                             <p>CEO/Founder</p>
                             <hr>
                             <p class="text-gray">Donec sed odio dui. Etiam porta <br>sem malesuada magna mollis <br>euismod. Nullam id dolor id nibh <br>ultricies vehicula ut id elit. Morbi <br>leo risus, porta ac consectetur <br>ac, vestibulum at eros.</p>
-                            <a href="#"><img src="img/iconredes/facebook.png"></a>
-                            <a href="#"><img src="img/iconredes/twitter.png"></a>
-                            <a href="#"><img src="img/iconredes/linkedin.png"></a>
-                            <a href="#"><img src="img/iconredes/pinterest.png"></a>
-                            <a href="#"><img src="img/iconredes/instagram.png"></a>
+                            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-pinterest-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
                             <img src="img/team/1.jpg" alt="Team" class="img-responsive center-block">
@@ -206,11 +209,11 @@
                             <p>CEO/Founder</p>
                             <hr>
                             <p class="text-gray">Donec sed odio dui. Etiam porta <br>sem malesuada magna mollis <br>euismod. Nullam id dolor id nibh <br>ultricies vehicula ut id elit. Morbi <br>leo risus, porta ac consectetur <br>ac, vestibulum at eros.</p>
-                            <a href="#"><img src="img/iconredes/facebook.png"></a>
-                            <a href="#"><img src="img/iconredes/twitter.png"></a>
-                            <a href="#"><img src="img/iconredes/linkedin.png"></a>
-                            <a href="#"><img src="img/iconredes/pinterest.png"></a>
-                            <a href="#"><img src="img/iconredes/instagram.png"></a>
+                            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-pinterest-square fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
                         </div>
                     </div>
                 </div>
@@ -310,39 +313,45 @@
             <section class="redes-bck"><!--Seccion de redes sociales-->
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                        <a href="#"><img src="img/iconredes/facebook-logo.png"></a>
-                        <a href="#"><img src="img/iconredes/twitter-logo.png"></a>
-                        <a href="#"><img src="img/iconredes/linkedin-logo.png"></a>
-                        <a href="#"><img src="img/iconredes/pinterest-logo.png"></a>
-                        <a href="#"><img src="img/iconredes/google-plus.png"></a>
-                        <a href="#"><img src="img/iconredes/tumblr.png"></a>
-                        <a href="#"><img src="img/iconredes/instagram-logo.png"></a>
+                        <a href="#"><i class="fa fa-facebook-square fa-9x"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square fa-9x"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square fa-9x"></i></a>
+                        <a href="#"><i class="fa fa-pinterest-square fa-9x"></i></a>
+                        <a href="#"><i class="fa fa-instagram fa-9x"></i></a>
+                        <a href="#"><i class="fa fa-google-plus-square fa-9x"></i></a>
+                        <a href="#"><i class="fa fa-tumblr-square fa-9x"></i></a>
                     </div>
                 </div>
             </section>
             <footer class="verde">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 -col-sm-4 col-xs-4 text-white">
-                            <p class="text-center">Visit US</p>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <p class="fa-2x text-white text-center">Visit Us</p>
                             <hr>
-                            <p><span class="glyphicon glyphicon-send"></span>10 Lorum Impsum street</p>
-                            <p><span class="glyphicon glyphicon-map-marker"></span>68123 Mannheim</p>
-                            <p><span class="glyphicon glyphicon-flag"></span>Germany</p>
+                            <p><i class="fa fa-location-arrow"></i> 10 Lorem Ipsum Street</p>
+                            <p><i class="fa fa-map-marker"></i> 68123 Mannheim</p>
+                            <p><i class="fa fa-flag"></i> Germany</p>
                         </div>
-                        <div class="col-lg-4 col-md-4 -col-sm-4 col-xs-4 text-white">
-                            <p class="text-center">Write Us</p>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <p class="fa-2x text-white text-center">Write Us</p>
                             <hr>
-                            <p><span class="glyphicon glyphicon-earphone"></span>+49 621 123 321 123</p>
-                            <p><span class="glyphicon glyphicon-envelope"></span>info@fabianbentz.de</p>
-                            <p><span class="glyphicon glyphicon-print"></span>+49 621 123 321 124</p>
+                            <p><i class="fa fa-phone"></i> +49 621 123 321 123</p>
+                            <p><i class="fa fa-envelope"></i> info@fabianbentz.de</p>
+                            <p><i class="fa fa-print"></i> +49 621 123 321 124</p>
                         </div>
-                        <div class="col-lg-4 col-md-4 -col-sm-4 col-xs-4 text-white">
-                            <p class="text-center">Newsletter</p>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <p class="fa-2x text-white text-center">Newsletter</p>
                             <hr>
+                            <div class="input-group input-group-xs">
+                                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
                                 <input class="form-control" placeholder="Enter Email">
-                                <button type="button" class="btn btn-default center-block">Suscribe Now!</button>
-                            </div>  
+                            </div>
+                            <button class="btn btn-default center-block" type="submit">Subscribe Now!</button>
+                        </div>
+                    <div class="row">
+                    <div class="col-md-12">
+                            <p>&copy; 2013 ThreeSixty Website Template <a href="">Privacy </a><a href="">Terms</a></p>
                         </div>
                     </div>
                 </div>
