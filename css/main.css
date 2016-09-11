@@ -53,3 +53,9 @@
 	background-color: #873600;
 	margin-top: 0%;
 }
+/*Seccion de redes sociales*/
+.redes-bck{
+	background-image: url("../img/img-divider-img.jpg");
+	background-position: center;
+	padding: 10% 0%;
+}
