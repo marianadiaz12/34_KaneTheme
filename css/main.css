@@ -148,3 +148,17 @@ nav.navbar {
 	background-position: center;
 	padding: 10% 0%;
 }
+
+@media screen and (max-width: 768px) {
+    .titulo {
+        font-size: 1em;
+    }
+    .iconred{
+    	font-size: 3em;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 940px){
+	.titulo{
+		font-size: 2em;
+	}
+}
