@@ -1,6 +1,9 @@
 .text-white{
 	color: white;
 }
+.text-gray{
+	color: #D5D8DC;
+}
 .gray-m{
 	background-color: #34495E;
 }
@@ -27,3 +30,15 @@
 .phi-b{
 	width: 85%;
 }
+/*Seccion What we do*/
+.verde{
+	background-color: #28B463;
+}
+.btn-black{
+	background-color: black;
+}
+
+
+
+
+
