@@ -1,8 +1,16 @@
+/*Color de texto*/
 .text-white{
 	color: white;
 }
 .text-gray{
 	color: #D5D8DC;
+}
+.text-nar{
+	color: #E67E22;
+}
+/*Padding y margin*/
+.pd-3{
+	padding: 2% 10%;
 }
 .gray-m{
 	background-color: #34495E;
@@ -37,8 +45,11 @@
 .btn-black{
 	background-color: black;
 }
-
-
-
-
-
+/*Sección Best price*/
+.borde-verde{
+	border: 1px solid #28B463;
+}
+.bck-cafe{
+	background-color: #873600;
+	margin-top: 0%;
+}
