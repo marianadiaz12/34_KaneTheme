@@ -182,10 +182,17 @@ nav.navbar {
 .borde-verde{
 	border: 1px solid #28B463;
 }
-.bck-cafe{
-	background-color: #873600;
-	margin-top: 0%;
+
+.bck-white{
+	background-color: white;
+	margin: 0%;
+	padding: 2%;
 }
+.pricev{
+	margin: 0%;
+	padding: 7%;
+}
+
 /*Seccion de redes sociales*/
 .redes-bck{
 	background-image: url("../img/img-divider-img.jpg");
