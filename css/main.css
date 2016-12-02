@@ -41,6 +41,9 @@ nav.navbar {
     background-color: #28B463;
     margin-bottom: 0%;
 }
+li a, div a{
+	color: white !important;
+}
 .hr-subtgray{
 	width: 30%;
 	border: solid 1px gray;
